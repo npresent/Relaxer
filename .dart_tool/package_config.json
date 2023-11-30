@@ -8,6 +8,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "avatar_glow",
+      "rootUri": "file:///C:/Users/nawoo/AppData/Local/Pub/Cache/hosted/pub.dev/avatar_glow-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///C:/Users/nawoo/AppData/Local/Pub/Cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
@@ -66,6 +72,12 @@
       "rootUri": "file:///C:/Users/nawoo/Flutter/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "highlight_text",
+      "rootUri": "file:///C:/Users/nawoo/AppData/Local/Pub/Cache/hosted/pub.dev/highlight_text-1.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "js",
@@ -218,7 +230,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-11-27T08:54:22.026304Z",
+  "generated": "2023-11-27T12:01:48.356704Z",
   "generator": "pub",
   "generatorVersion": "3.3.0-152.0.dev"
 }

@@ -10,7 +10,6 @@ void main() => runApp(const SpeechSampleApp());
 
 class SpeechSampleApp extends StatefulWidget {
   const SpeechSampleApp({Key? key}) : super(key: key);
-
   @override
   State<SpeechSampleApp> createState() => _SpeechSampleAppState();
 }
@@ -397,39 +396,24 @@ class SessionOptionsWidget extends StatelessWidget {
         children: <Widget>[
           Row(
             children: [
-              const Text('Language: '),
-              DropdownButton<String>(
-                onChanged: (selectedVal) => switchLang(selectedVal),
-                value: currentLocaleId,
-                items: localeNames
-                    .map(
-                      (localeName) => DropdownMenuItem(
-                        value: localeName.localeId,
-                        child: Text(localeName.name),
-                      ),
-                    )
-                    .toList(),
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              const Text('pauseFor: '),
+              const Text('자동 멈춤: '),
               Container(
                   padding: const EdgeInsets.only(left: 8),
                   width: 80,
                   child: TextFormField(
                     controller: pauseForController,
                   )),
+              const Text('초'),
               Container(
                   padding: const EdgeInsets.only(left: 16),
-                  child: const Text('listenFor: ')),
+                  child: const Text('총 발표 시간: ')),
               Container(
                   padding: const EdgeInsets.only(left: 8),
                   width: 80,
                   child: TextFormField(
                     controller: listenForController,
                   )),
+              const Text('초'),
             ],
           ),
           Row(
